@@ -8,13 +8,17 @@ img {
 }
 
 .imagem {
-    width: 15%;
-    padding-left: 65%;
+    width: 6%;
+    padding-left: 85%;
+    padding-right: 0%;
    padding-top: 0%;
-   border-color: #06AA48;
+   background-color:  #06AA48;
+ align-items: flex-start;
   }
-#divDoTitulo {
+nav {
     background-color:  #06AA48;
+    width: 100%;
+  
 }
   #titulo{
 text-align: left;
@@ -22,7 +26,9 @@ text-align: left;
        border-style: solid;
        border-color: #06AA48;
        border-width: 15px;
+       font-size: 100%;
        color: white;
+       
    }
 
  h6{
@@ -37,11 +43,7 @@ text-align: left;
 
 
 
-ul {
-   
-    display:table;
-    vertical-align: bottom;
-}
+
 
 h6{
     border-width: 20px;
