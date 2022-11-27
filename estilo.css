@@ -100,9 +100,10 @@ figcaption {
 .container{
     display: flex;
     align-items: center;
-    gap: 15%;
+    /* gap: 15%; */
  
-    justify-content: center;
+
+
    
 }
 
