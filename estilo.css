@@ -7,10 +7,9 @@ img {
     width: 100%;
 }
 
-.imagem {
+#imagem {
     width: 6%;
-    padding-left: 85%;
-   padding-top: 0%;
+  
   }
 nav {
     background-color:  #06AA48;
@@ -97,10 +96,11 @@ figcaption {
         padding-left: 9%;
     }
 }
-.container{
+.container>ul{
     display: flex;
     align-items: center;
-    /* gap: 15%; */
+    flex-direction: row-reverse;
+    justify-content: space-between;
  
 
 
