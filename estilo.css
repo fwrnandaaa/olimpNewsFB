@@ -10,19 +10,15 @@ img {
 .imagem {
     width: 6%;
     padding-left: 85%;
-    padding-right: 0%;
    padding-top: 0%;
-   background-color:  #06AA48;
- align-items: flex-start;
   }
 nav {
     background-color:  #06AA48;
     width: 100%;
   
 }
-  #titulo{
-text-align: left;
-       background-color: #06AA48; 
+  caption{
+        text-align: left;
        border-style: solid;
        border-color: #06AA48;
        border-width: 15px;
@@ -33,18 +29,13 @@ text-align: left;
 
  h6{
     text-align: center;
-    background-color: #06AA48; 
+
     border-style: solid;
     border-color: #06AA48;
     border-width: 15px;
     color: white;
     
 }
-
-
-
-
-
 h6{
     border-width: 20px;
     margin-bottom: 0%;
@@ -112,7 +103,6 @@ figcaption {
     gap: 15%;
  
     justify-content: center;
-    background-color:  #06AA48;
    
 }
 
