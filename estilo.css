@@ -12,9 +12,18 @@ img {
   
   }
 nav {
-    background-color:  #06AA48;
+    background-color:  #489c69;
     width: 100%;
   
+}
+
+.container>ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   padding-left: 45%;
+
+   
 }
   caption{
         text-align: left;
@@ -31,13 +40,10 @@ nav {
 
     border-style: solid;
     border-color: #06AA48;
-    border-width: 15px;
-    color: white;
-    
-}
-h6{
     border-width: 20px;
+    color: white;
     margin-bottom: 0%;
+    
 }
 
 h3 {
@@ -66,9 +72,7 @@ article {
     margin: 6px;
 }
 
-img {
-    width: 100%;
-}
+
 
 figcaption {
     color: #555;
@@ -96,15 +100,6 @@ figcaption {
         padding-left: 9%;
     }
 }
-.container>ul{
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-    justify-content: space-between;
- 
 
-
-   
-}
 
 
