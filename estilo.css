@@ -10,11 +10,12 @@ img {
 
 #imagem {
     width: 11%;
-  
+
   }
 nav {
     background-color:  #489c69;
     width: 100%;
+    border: 0cm;
   
 }
 
@@ -23,20 +24,21 @@ nav {
     align-items: center;
     justify-content: space-between;
    padding-left: 45%;
-   list-style: none
+   list-style: none;
+
 
    
 }
-  caption{
-        text-align: left;
+  .caption{
+        text-align: center;
        border-style: solid;
        border-color: #06AA48;
        border-width: 15px;
        font-size: 100%;
        color: white;
        
-   }
-
+   
+  }
  h6{
     text-align: center;
 
