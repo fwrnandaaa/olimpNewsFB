@@ -1,6 +1,7 @@
 * {
     margin: 0%;
     padding: 0px;
+    
 }
 
 img {
@@ -8,7 +9,7 @@ img {
 }
 
 #imagem {
-    width: 6%;
+    width: 11%;
   
   }
 nav {
@@ -22,6 +23,7 @@ nav {
     align-items: center;
     justify-content: space-between;
    padding-left: 45%;
+   list-style: none
 
    
 }
