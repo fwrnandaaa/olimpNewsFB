@@ -3,7 +3,29 @@
     padding: 0px;
 }
 
-h1, h6{
+img {
+    width: 100%;
+}
+
+.imagem {
+    width: 15%;
+    padding-left: 65%;
+   padding-top: 0%;
+   border-color: #06AA48;
+  }
+#divDoTitulo {
+    background-color:  #06AA48;
+}
+  #titulo{
+text-align: left;
+       background-color: #06AA48; 
+       border-style: solid;
+       border-color: #06AA48;
+       border-width: 15px;
+       color: white;
+   }
+
+ h6{
     text-align: center;
     background-color: #06AA48; 
     border-style: solid;
@@ -12,12 +34,7 @@ h1, h6{
     color: white;
     
 }
-.imagem {
-    width: 15%;
-    padding-left: 65%;
-   padding-top: 0%;
-   border-color: #06AA48;
-  }
+
 
 
 ul {
@@ -87,7 +104,7 @@ figcaption {
         padding-left: 9%;
     }
 }
-.container, h1{
+.container{
     display: flex;
     align-items: center;
     gap: 15%;
