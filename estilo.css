@@ -1,4 +1,9 @@
-h1, h6 {
+* {
+    margin: 0%;
+    padding: 0px;
+}
+
+h1, h6, ul {
     text-align: center;
     background-color: #06AA48; 
     border-style: solid;
@@ -6,6 +11,13 @@ h1, h6 {
     border-width: 15px;
     color: white;
 }
+
+ul {
+   
+    display:table;
+    vertical-align: bottom;
+}
+
 h6{
     border-width: 20px;
     margin-bottom: 0%;
@@ -68,11 +80,11 @@ figcaption {
     }
 }
 .container{
-    display:flex;
-    box-sizing: border-box;
-
-    justify-content: space-around;
-   
+    display: flex;
+    align-items: center;
+    gap: 15%;
+    justify-content: center;
+    background-color: #06AA48;
    
 }
 .child{
