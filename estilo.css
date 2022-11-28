@@ -28,11 +28,6 @@ nav {
    list-style: none;
    font-size: 20px;
 
-
-  
-
-
-
    
 }
   .caption{
@@ -80,6 +75,7 @@ article {
     border-color: #06AA48;
     border-width: 3px;
     margin: 6px;
+
 }
 
 
@@ -88,24 +84,23 @@ figcaption {
     color: #555;
 }
 
-
 @media(min-width: 600px) {
     section {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
 }
 
-@media(min-width: 1200px) {
+@media(max-width: 1200px) {
     section {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
-@media(min-width: 1400px) {
+@media(max-width: 1400px) {
     section {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         padding-right: 9%;
         padding-left: 9%;
     }
