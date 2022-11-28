@@ -28,6 +28,7 @@ nav {
    list-style: none;
    font-size: 20px;
 
+
   
 
 
@@ -35,11 +36,11 @@ nav {
    
 }
   .caption{
-        text-align: center;
+        text-align: left;
        border-style: solid;
        border-color: #06AA48;
        border-width: 15px;
-       font-size: 100%;
+        font-size: 32px;
        color: white;
        
    
