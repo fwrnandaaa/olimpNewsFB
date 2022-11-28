@@ -1,6 +1,7 @@
 * {
     margin: 0%;
     padding: 0px;
+    box-sizing: border-box;
     
 }
 
@@ -20,11 +21,13 @@ nav {
 }
 
 .container>ul{
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: space-between;
    padding-left: 45%;
    list-style: none;
+  
+
 
 
    
