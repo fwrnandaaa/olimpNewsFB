@@ -74,32 +74,8 @@ figcaption {
   color: #555;
 }
 
-@media (max-width: 600px) {
-  container {
-    display: flex;
-  }
-  section {
-    display: flex;
-    flex-direction: column;
-  }
-}
 
-@media (min-width: 1200px) {
-  container {
-    display: flex;
-  }
-  section {
-    display: flex;
-    flex-direction: row;
-  }
-}
-@media (min-width: 1400px) {
-  container {
-    display: flex;
-  }
-  section {
-    display: flex;
-
-    justify-content: center;
-  }
+section{
+  display: flex;
+  justify-content: center;
 }
