@@ -1,7 +1,7 @@
 * {
   margin: 0%;
   padding: 0px;
-  box-sizing: border-box;
+  text-decoration: none;
 }
 
 img {
@@ -10,6 +10,14 @@ img {
 
 #imagem {
   width: 11%;
+  display: flex;
+
+
+}
+
+.container li div{
+  display: flex;
+  justify-content: space-between;
 }
 nav {
   display: flex;
@@ -25,8 +33,9 @@ nav {
   text-decoration: none;
 }
 .container li {
-  padding: 5px 14px;
- 
+  padding:18px;
+  justify-content: space-between;
+  text-decoration: none;
 }
 
 
