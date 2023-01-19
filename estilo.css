@@ -11,11 +11,9 @@ img {
 #imagem {
   width: 11%;
   display: flex;
-
-
 }
 
-.container li div{
+.container li div {
   display: flex;
   justify-content: space-between;
 }
@@ -24,7 +22,6 @@ nav {
   background-color: #489c69;
   align-items: center;
   justify-content: space-between;
-  
 }
 .container {
   display: flex;
@@ -33,11 +30,10 @@ nav {
   text-decoration: none;
 }
 .container li {
-  padding:18px;
+  padding: 18px;
   justify-content: space-between;
   text-decoration: none;
 }
-
 
 h3 {
   color: #06aa48;
@@ -47,7 +43,7 @@ h3 {
 }
 
 p {
-  color: #333;
+  
   font-family: Arial, Helvetica, sans-serif;
   padding: 5px;
   padding-top: 0%;
@@ -79,9 +75,16 @@ footer {
   color: white;
   margin-bottom: 0%;
 }
-#nome{
+#nome {
   font-size: 20px;
   color: white;
 }
+.dark {
+  background-color: #321f28;
+  color: #e79e4f;
+}
 
-
+.light {
+  background-color: #86C8BC;
+  color: #CEEDC7;
+}
