@@ -4,4 +4,8 @@ function newFunction() {
     alert(2023 + entrada);
     alert(typeof entrada); 
 }*/
+let section = document.querySelector("section");
+section.classList.add("dark");
 
+let nav = document.querySelector("nav");
+nav.classList.add("light");
